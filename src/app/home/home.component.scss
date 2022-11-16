@@ -1,0 +1,99 @@
+@import "../../styles.scss";
+
+// banner section
+.banner
+{   
+    background-image: url('../../assets/images/Strawberries-Header-OG.jpg');
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+}
+.content
+{
+    top: 30%;
+    left: 20%;
+    position: absolute;
+}
+.content h1
+{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.content a
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.content a:hover
+{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+
+// company section styles
+.CompanyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h1{
+        color:black;
+        margin-bottom: 3%;
+    }
+    h2{
+        color:$commonColor;
+    }
+}
+// global markets section styles
+.globalContainer{
+    // padding: 4% 8%;
+    background-color: $backGroundColor;
+    .wrapper{
+        padding: 3% 1%;
+        background-color: white;
+    }
+    .globalText{
+        padding: 1%;
+    }
+}
+// picture links section styles
+.picsContainer{
+    padding: 3% 9%;
+    h4{
+        color: $commonColor;
+    }
+}
+
+.companyText{
+    display: none;
+
+}
+.img-hieght{
+    height: 200px;
+}
+.img-hieght2{
+    height: 250px;
+    width: 250px;
+}
+.img-hieght3{
+    height: 400px;
+    width: 600px;
+}
+
+
+
+// certification
+
+.companyText{
+    h1{
+        margin-bottom: 3%;
+    }
+}

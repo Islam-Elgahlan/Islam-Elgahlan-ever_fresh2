@@ -1,0 +1,19 @@
+@import "../../styles.scss";
+
+ h1{
+    color:$secondCommonColor;
+    margin-bottom: 3%;
+}
+.img-hieght{
+    height: 200px;
+}
+.product_img{
+    overflow: hidden;
+}
+.product_img .img{
+    transition: all 0.5s ease-in-out;
+}
+.product_img:hover img{
+    transform: scale(1.2);
+}
+
